@@ -27,6 +27,7 @@ Aquí encontrarás 2 archivos, `Entidades.json` y `Casos.json`.
 ```json
 {
     "NIT": 1,
+    "NOMRE": "Nombre del caso",
     "CONTEXTO": "Contexto de ejemplo (Este caso es una prueba técnica, no es real.)",
     "COSTE": 300000,
     "IMPUTADOS": ["José", "Pepito"],
@@ -36,8 +37,50 @@ Aquí encontrarás 2 archivos, `Entidades.json` y `Casos.json`.
 ```
 
 - NIT: **Número Identificador de Trama** - Similar al NIEC, sirve para identificar los casos.
+- NOMBE: **Nombre del caso (sin incluir "trama", "caso", o parecidos, solo el nombre)**
 - CONTEXTO: **Breve descripción del caso de corrupción**
 - COSTE: **Coste en euros (sin puntuación, ni céntimos)**
 - IMPUTADOS: **Todos los involucrados, con nombre y apellidos**
 - ORG: **NIEC de la organización principal vinculada al caso (si no hay una org. vinculada, establecer en 0)**
 - JUDICIAL: **Si se trata de un caso de corrupción que se investiga judicialmente, marcar `true`, si es una investigación independiente, sea o no de HR, marcar `false`**.
+
+## `reqcases`
+
+Dentro de esta carpeta habrá varias carpetas cuyo nombre será un número. Ese número es el NIT de cada trama. Dentro de cada carpeta hay dos archivos, `INDEX.md` (el texto que aparece en la página del caso), y `data.json`, que luce así:
+
+```json
+{
+  "NOMBRE": "NOMBRE_CASO_DE_CORRUPCION",
+  "IMPLICADOS": [
+    {
+      "NOMBRE": "Persona Uno",
+      "FOTO": "URL",
+      "ESTADO": 1,
+      "CARGO": "Cargo de Ejemplo"
+    },
+    {
+      "NOMBRE": "Persona Dos",
+      "FOTO": "URL",
+      "ESTADO": 3,
+      "CARGO": "Otro cargo de Ejemplo"
+    }
+  ]
+  "LOCALIZACION": "Madrid",
+  "COSTE": 350000,
+  "ANO": "2009",
+  "ORG": 2,
+  "ULTIMAREV": "15-11-2023"
+}
+```
+
+- NOMBRE: **Nombre completo del caso (sin incluir "trama", "caso", o parecidos, solo el nombre)**
+- IMPLICADOS: **Cada persona o entidad implicada.**
+  - NOMBRE: **Nombre completo del implicado**
+  - FOTO: **URL a la foto del implicado (si no hay, establecer en `null`)**
+  - ESTADO: **Estado del implicado. 1 si está apresado. 2 si sancionado o condenado de otra forma. 3 si fue declarado culpable pero fue absuelto. 4 si fue inocente. 5 en cualquier otro caso.**
+  - CARGO: **Papel ejercido *durante el momento del caso de corrupción* (p ej. "Secretario General del PSOE" si en ese momento era secretario general, independientemente de si a dia de hoy lo es o no)**
+- LOCALIZACIÓN: **Lugar en el que se desarrolla la trama. Poner nombre de Comunidad Autónoma, o "Nacional" si abarca toda España.**
+- COSTE: **Coste en euros, sin céntimos ni decimales**
+- ANO (año): **Año en el que se produce el caso de corrupción (si abarca varios años, año en el que se presenta ante los juzgados)**
+- ORG: **NIEC de la organización vinculada si la hay (si no, establecer en 0)**
+- ULTIMAREV: **En formato DIA-MES-AÑO, última vez que se revisaron y/o actualizaron `data.json` o `INDEX.md` de ese caso.**
