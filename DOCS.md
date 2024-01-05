@@ -5,6 +5,7 @@ Verás que hay dos carpetas en este repositorio, una llamada `reqjson` y otra ll
 ## `reqjson`
 
 Aquí encontrarás 2 archivos, `Entidades.json` y `Casos.json`.
+
 `Entidades.json` incluye los datos que se muestran en la página de "Entidades". El formato es el siguiente:
 
 ```json
