@@ -1,0 +1,62 @@
+{
+  {
+    "NIEC": 1,
+    "NOMBRE": "EMPRESAS PÚBLICAS",
+    "IMAGEN": "https://hisparrupcion.vercel.app/public/orgBanner_empresasPublicas.png",
+    "DESC": "Empresas financiadas con dinero público (de tus impuestos)."
+  },
+  {
+    "NIEC": 2,
+    "NOMBRE": "EMPRESAS PRIVADAS",
+    "IMAGEN": "https://hisparrupcion.vercel.app/public/orgBanner_empresasPriv.png",
+    "DESC": "Empresas corrientes, financiadas con sus propios ingresos."
+  },
+  {
+    "NIEC": 3,
+    "NOMBRE": "CAJAS DE AHORROS",
+    "IMAGEN": "https://hisparrupcion.vercel.app/public/orgBanner_cajasDeAhorros.png",
+    "DESC": "Entidades financieras que ofrecen servicios de ahorro y préstamos, similares a un banco."
+  },
+  {
+    "NIEC": 4,
+    "NOMBRE": "BANCOS",
+    "IMAGEN": "https://hisparrupcion.vercel.app/public/orgBanner_bancos.png",
+    "DESC": "Empresas dedicadas a almacenar, invertir, y operar con divisas y con el dinero de sus clientes, entre otras funciones."
+  },
+  {
+    "NIEC": 5,
+    "NOMBRE": "EMPRESAS PÚBLICAS",
+    "IMAGEN": "https://hisparrupcion.vercel.app/public/orgBanner_empresasPublicas.png",
+    "DESC": "Empresas financiadas con dinero público (de tus impuestos)."
+  },
+  {
+    "NIEC": 6,
+    "NOMBRE": "VOX",
+    "IMAGEN": "https://hisparrupcion.vercel.app/public/orgBanner_party_vox.png",
+    "DESC": "PARTIDO POLÍTICO - Vox es un partido político de derecha (extrema derecha para algunos), tanto nacional como autonómico."
+  },
+  {
+    "NIEC": 7,
+    "NOMBRE": "PSOE",
+    "IMAGEN": "https://hisparrupcion.vercel.app/public/orgBanner_party_psoe.png",
+    "DESC": "PARTIDO POLÍTICO - El Partido Socialista Obrero Español (o PSOE) es un partido político de izquierda, tanto nacional como autonómico. El segundo más corrupto de España."
+  },
+  {
+    "NIEC": 8,
+    "NOMBRE": "PP",
+    "IMAGEN": "https://hisparrupcion.vercel.app/public/orgBanner_party_pp.png",
+    "DESC": "PARTIDO POLÍTICO - El Partido Popular (o PP) es un partido político de centro / centro-derecha, tanto nacional como autonómico. El más corrupto de España."
+  },
+  {
+    "NIEC": 9,
+    "NOMBRE": "EAJ/PNV",
+    "IMAGEN": "https://hisparrupcion.vercel.app/public/orgBanner_party_pnv.png",
+    "DESC": "PARTIDO POLÍTICO - El Partido Nacionalista Vasco (también EAJ/PNV, o solo PNV), es un partido político de centro, tanto nacional como autonómico (no todas las CC.AA.)."
+  },
+  {
+    "NIEC": 10,
+    "NOMBRE": "CS",
+    "IMAGEN": "https://hisparrupcion.vercel.app/public/orgBanner_party_cs.png",
+    "DESC": "PARTIDO POLÍTICO - Ciudadanos (o CS), es un partido político de centro, tanto nacional como autonómico"
+  }
+}
