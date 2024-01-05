@@ -1,0 +1,14 @@
+{
+    "NIT": 1,
+    "CONTEXTO": "Contexto de ejemplo (Este caso es una prueba técnica, no es real.)",
+    "COSTE": 300000,
+    "IMPUTADOS": ["José", "Pepito"],
+    "JUDICIAL": true,
+},
+{
+    "NIT": 2,
+    "CONTEXTO": "Contexto de ejemplo 2 (Este caso es una prueba técnica, no es real.)",
+    "COSTE": 450,
+    "IMPUTADOS": ["Persona3", "Persona4"],
+    "JUDICIAL": false,
+}
