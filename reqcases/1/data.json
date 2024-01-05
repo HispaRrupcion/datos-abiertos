@@ -1,0 +1,22 @@
+{
+  "NOMBRE": "NOMBRE_CASO_DE_CORRUPCION",
+  "IMPLICADOS": [
+    {
+      "NOMBRE": "Persona Uno",
+      "FOTO": "URL",
+      "ESTADO": 1,
+      "CARGO": "Cargo de Ejemplo"
+    },
+    {
+      "NOMBRE": "Persona Dos",
+      "FOTO": "URL",
+      "ESTADO": 3,
+      "CARGO": "Otro cargo de Ejemplo"
+    }
+  ]
+  "LOCALIZACION": "Madrid",
+  "COSTE": 350000,
+  "ANO": "2009",
+  "ORG": 2,
+  "ULTIMAREV": "15-11-2023"
+}
