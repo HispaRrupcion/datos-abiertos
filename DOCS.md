@@ -30,6 +30,7 @@ Aquí encontrarás 2 archivos, `Entidades.json` y `Casos.json`.
     "CONTEXTO": "Contexto de ejemplo (Este caso es una prueba técnica, no es real.)",
     "COSTE": 300000,
     "IMPUTADOS": ["José", "Pepito"],
+    "ORG": 2,
     "JUDICIAL": true,
 },
 ```
